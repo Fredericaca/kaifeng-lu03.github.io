@@ -9,7 +9,11 @@ profile:
   image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Kaifeng on the beautiful Foothill of Berkeley, California</p>
+    <p class="location-line">
+      <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+      <span class="sr-only">Location:</span> Rochester, NY
+    </p>
+
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,7 +31,7 @@ latest_posts:
 
 Hi! I an undergraduate student in Mathematics doubling Computer Science who currently studies at the [University of Rochester](https://www.rochester.edu/) and will transfer to [UC Berkeley](https://math.berkeley.edu/home/) this fall. 
 
-I am currently working as an undergraduate research assistant at [professor Kang Jian](https://jiank2.github.io/)'s lab. My research interest focuses on **deep learning** and **information retrieval**, especially on **music understanding** and **machine vision**.
+I am currently working as an undergraduate research assistant at [professor Kang Jian](https://jiank2.github.io/)'s lab. My research interest focuses on **deep learning** and **information retrieval**, especially on **music understanding** and **computer vision**.
 
 ***I am actively looking for undergraduate research assistant position in this summer either remote or in-person. Please email me if you are interested.***
 
