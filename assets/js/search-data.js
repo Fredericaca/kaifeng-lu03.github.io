@@ -48,6 +48,17 @@ ninja.data = [{
             window.location.href = "/blog/projects/2025/initial-post/";
           
         },
+      },{id: "post-转学log与心得分享",
+        
+          title: '转学log与心得分享 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "in Chinese post on Zhihu",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.zhihu.com/question/612630214/answer/3593664865", "_blank");
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -62,7 +73,7 @@ ninja.data = [{
           title: 'DMST101 at Chimney Bluffs State Park',
           description: "with Harry gg, TX gg, and Wenbo gg",
           section: "Gallery",handler: () => {
-              window.location.href = "/gallery/ontario-lake.md/";
+              window.location.href = "/gallery/ontario-lake/";
             },},{id: "news-a-paper-that-i-participated-in-has-been-submitted-to-neuripr2025",
           title: '🔥 A paper that I participated in has been submitted to NeurIPR2025!',
           description: "",
