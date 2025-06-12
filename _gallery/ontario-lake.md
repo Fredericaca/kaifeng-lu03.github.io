@@ -63,5 +63,5 @@ category: photography
     </div>
 </div>
 <div class="caption">
-    <p>On the top of the world(yet?) | New instagram headshot</p>
+    <p>On the top of the world | New instagram headshot</p>
 </div>
