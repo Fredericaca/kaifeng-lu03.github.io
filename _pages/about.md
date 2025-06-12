@@ -31,7 +31,7 @@ latest_posts:
 
 Hi! I an undergraduate student in Mathematics doubling Computer Science who currently studies at the [University of Rochester](https://www.rochester.edu/) and will transfer to [UC Berkeley](https://math.berkeley.edu/home/) this fall. 
 
-I am currently working as an undergraduate research assistant at [professor Kang Jian](https://jiank2.github.io/)'s lab. My research interest focuses on **deep learning** and **information retrieval**, especially on **music understanding** and **computer vision**.
+I am currently working as an undergraduate research assistant at [professor Kang Jian](https://jiank2.github.io/)'s lab. have broad interests in **deep learning** and **information retrieval**, especially on **music understanding** and **computer vision**.
 
 ***I am actively looking for undergraduate research assistant position in this summer either remote or in-person. Please email me if you are interested.***
 

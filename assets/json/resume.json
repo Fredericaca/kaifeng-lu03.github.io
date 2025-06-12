@@ -76,8 +76,25 @@
       "name": "Programming",
       "icon": "fa-solid fa-code",
       "keywords": [
-        "Experienced: Java | Python | LaTex",
-        "Familiar: C | C++"
+        "Proficient: Java, Python, LaTex",
+        "Familiar: C/C++, SQL, MATLAB"
+      ]
+    },
+    {
+      "name": "Framworks",
+      "icon": "fa-solid fa-laptop",
+      "keywords": [
+        "Proficient: PyTorch, Pandas, NumPy",
+        "Familiar: MySQL, JDBC"
+      ]
+    },
+    {
+      "name": "Mathematical Background",
+      "icon": "fa-solid fa-function",
+      "keywords": [
+        "Intro Analysis",
+        "Advanced Calculus",
+        "Financial Mathematics"
       ]
     },
     {
