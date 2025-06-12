@@ -66,11 +66,11 @@ ninja.data = [{
             },},{id: "news-a-paper-that-i-participated-in-has-been-submitted-to-neuripr2025",
           title: '🔥 A paper that I participated in has been submitted to NeurIPR2025!',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+          section: "News",},{id: "projects-latex-notes-for-math265-real-analysis",
+          title: 'LaTex Notes for Math265 Real Analysis',
+          description: "Math265 Real Analysis class notes in pdf+latex.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
+              window.location.href = "/projects/math265notes/";
             },},{
         id: 'social-email',
         title: 'email',
