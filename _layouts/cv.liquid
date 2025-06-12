@@ -95,6 +95,10 @@ layout: default
                   {% include resume/basics.liquid %}
                 {% when 'education' %}
                   {% include resume/education.liquid %}
+                {% when 'experiences' %}
+                  {% include resume/experiences.liquid %}
+                {% when 'research' %}
+                  {% include resume/research.liquid %}
                 {% when 'work' %}
                   {% include resume/work.liquid %}
                 {% when 'volunteer' %}
@@ -107,6 +111,8 @@ layout: default
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}
                   {% include resume/publications.liquid %}
+                {% when 'teaching' %}
+                  {% include resume/teaching.liquid %}
                 {% when 'languages' %}
                   {% include resume/languages.liquid %}
                 {% when 'interests' %}

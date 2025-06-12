@@ -1,0 +1,34 @@
+{%- assign teaching = data[1] -%}
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {%- for content in teaching -%}
+    <li class="list-group-item">
+      <div class="row align-items-center">
+
+        <div class="col-12 mt-2 mt-md-0">
+          
+          <h6 class="title font-weight-bold d-flex justify-content-between align-items-center">
+            {{ content.course }}
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle"
+                  style="min-width:90px;">
+              {{ content.term }}
+            </span>
+          </h6>
+
+          <div class="d-flex justify-content-between align-items-center" style="font-size:0.95rem;">
+            <h6 class="mb-2" style="font-style:italic;">{{ content.position }}</h6>
+            <p class="location mb-0">
+              <i class="fa-solid fa-school iconlocation"></i> {{ content.institution }}
+            </p>
+          </div>
+
+          <ul class="items">
+            {%- for item in content.highlights -%}
+              <li><span class="item">{{ item }}</span></li>
+            {%- endfor -%}
+          </ul>
+        </div>
+
+      </div>
+    </li>
+  {%- endfor -%}
+</ul>

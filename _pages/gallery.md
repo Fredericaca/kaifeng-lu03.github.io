@@ -1,23 +1,23 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
-description: A growing collection of cool stuff.
+title: Gallery
+permalink: /gallery/
+description: A visual notebook of the moment that shapes me
 nav: true
-nav_order: 1
-display_categories: [academics]
+nav_order: 5
+display_categories: [friends, photography]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/gallery.md -->
 <div class="projects">
 {% if site.enable_gallery_categories and page.display_categories %}
-  <!-- Display categorized projects -->
+  <!-- Display categorized gallery -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign categorized_projects = site.gallery | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
@@ -41,7 +41,7 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site.gallery | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 
